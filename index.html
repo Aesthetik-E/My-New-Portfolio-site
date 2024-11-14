@@ -14,7 +14,7 @@
     <div class="container">
     
         <nav>
-            <h1 id = "pseudoLogo" >ED <span id = "nameSpan">QUAINOO </span></h1>
+            <h1 class = "pseudoLogo" >ED <span id = "nameSpan">QUAINOO </span></h1>
             <!--<img src = "images/logo.png" class = "logo">-->
             <ul>
                 <li><a href="#header">Home</a></li>
@@ -23,7 +23,23 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            
         </nav>
+
+        <div class="hidden-menu">
+            <h1 class = "mini-logo" >ED <span class = "hidden-name-span">QUAINOO </span></h1>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick = "hideMenu()"></i>
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()" ></i>
+
+           </div>
 
         <div  class="sub-container"> <!------Change I made------->
 
@@ -253,6 +269,17 @@
     // Optionally clear the form fields after submission
     event.target.reset();
     });
+
+    /*JS for hidden menu*/
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
 
 </script>
 
