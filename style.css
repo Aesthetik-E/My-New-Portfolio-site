@@ -482,7 +482,7 @@ form .btn2{
     .mini-logo{
         position: absolute;
         top: 18px;
-        left: 25px;
+        left: 20px;
         font-size: 25px;
     }
 
@@ -540,6 +540,7 @@ form .btn2{
     .sub-container{
         display: flex;
         flex-direction: column;
+        margin-top: 10%;
     }
 
     .background-pic{
@@ -555,7 +556,7 @@ form .btn2{
     }
 
     #about{
-        margin-top: 30px;
+        margin-top: 13px;
         display: flex;
         justify-content: column;
     }
