@@ -537,15 +537,15 @@ form .btn2{
         justify-content: column;
     }
 
-    .about-col-1{
-        width: 100%;
-        height: 100%;
+     .about-col-1{
+        min-width: 100%;
+        min-height: 100%;
+        margin: 20px auto;
     }
 
     .about-col-1 img{
         width: 90%;
         height: 100%;
-        margin: 20px auto;
     }
 }
 
