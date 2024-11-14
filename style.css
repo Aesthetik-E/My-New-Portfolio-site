@@ -481,12 +481,12 @@ form .btn2{
         display: none;
     }
 
-    .pseudoLogo{
+     .mini-logo{
         position: absolute;
         top: 50px;
         left: 20px;
         font-size: 25px;
-
+        text-align: center;
     }
 
     .mini-logo .hidden-name-span{
