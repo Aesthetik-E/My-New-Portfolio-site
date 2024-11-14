@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Portfolio Website</title>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "Style.css">
+          <script src="https://kit.fontawesome.com/2f2fda7f66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+    
+        <nav>
+            <h1 id = "pseudoLogo" >ED <span id = "nameSpan">QUAINOO </span></h1>
+            <!--<img src = "images/logo.png" class = "logo">-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sub-container"> <!------Change I made------->
+
+            <div class="header-text">
+                <p>Freelance Web Developer</p>
+                <h1>Hi, I'm <span>Ed Quainoo</span><br>from Ghana</h1>
+            </div>
+
+            <div class="background-pic">
+
+                <img src="myProfessionalPic.jpg" alt="">
+            
+            </div>
+
+        </div>
+            
+
+    </div>
+
+   </div>
+
+   <!-----------------------------------about---------------------------------->
+
+   <div id = "about">
+    <div class = "container">
+        <div class = "row">
+            <div class = "about-col-1">
+                <img src = "MyPic.jpg">
+            </div>
+
+            <div class = "about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+             
+                <p>I'm a freelance web developer dedicated to creating clean, effective websites that empower small businesses to make a lasting first impression online. With nearly two years of hands-on experience in web development as a hobbyist,
+                     I'm now expanding my journey professionally. I'm eager to build my reputation and hone my skills through each project, 
+                     bringing reliability, creativity, and a collaborative spirit to every client relationship.</p>
+
+             <div class="tab-titles">
+                <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                <p class = "tab-links" onclick = "opentab('education')">Education</p>
+             </div>
+
+             <div class="tab-contents active-tab" id = "skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Proficient in designing user-friendly and visually appealing web interfaces</li>
+                    <li><span>Web Development</span><br>Experienced in HTML, CSS, and JavaScript for building responsive, interactive websites</li>
+                    <li><span>SEO</span><br>Skilled at implementing on-page SEO strategies to improve search engine rankings and website visibility.</li>
+                </ul>
+             </div>
+
+
+
+             <div class="tab-contents" id = "experience">
+                <ul>
+                    <li><span>2024 - Current</span><br>Fractional Head of Finance at Couri Inc. - Managing fundraising databases and strategies</li>
+                    <li><span>2023 - Current</span><br>Personal Web Development Projects - Building responsive websites, practicing on-page SEO, and enhancing client-facing site design</li>
+                    <li><span>2022 - 2023</span><br>Intern at Doxa Worldwide Movers - Focus on client interaction and digital processes</li>
+                    <li><span>2021 - 2022</span><br>Intern at RU Center for Career & Talent Development - Exposure to digital resource management</li>
+                </ul>
+             </div>
+
+
+             <div class="tab-contents" id = "education">
+                <ul>
+                    <li><span>2022</span><br>Bachelor of Science in Managament and Psychology, Radford University, Radford, VA <br><small>Relevant Coursework: Web Design</small></li>
+                    <li><span>2021</span><br>HTML, CSS, & JavaScript Training at Codecademy - Completed foundational web development courses.</li>
+                    <li><span>2016</span><br>Diploma, North Stafford High School, Stafford, VA</li>
+
+                </ul>
+             </div>
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!----------------------------Services-------------------------------------->
+
+   <div id="services">
+
+    <div class="container">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Custom-Coded Static Sites</h2>
+                <ul>
+                    <li><span class = "label">Single Page: <br> <small>(Ideal for landing pages,<br> portfolios, or informational <br>single-page sites)</small> </span> <span class="money">$500</span> </li>
+                    <li><span class = "label"> Five pages: </span> <span class="money">$1000</span> </li>
+                    <li>Custom-built with HTML, CSS, and JavaScript (from scratch)</li>
+                    <li>Includes basic on-page SEO & responsive design</li>
+                </ul>
+               <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Template-Based Static Sites</h2>
+                <ul>
+                    <li><span class = "label">Single Page: </span><span class="money">$250</span> </li>
+                    <li><span class = "label"> Five pages: </span> <span class="money">$500</span> </li>
+                    <li>Professionally designed templates tailored to your brand.</li>
+                </ul>
+                 <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Add-Ons</h2>
+                <ul class = "add-on-ul">
+                    <li> Domain & Hosting Setup: <span class="money">$250</span></li>  
+                        
+                    <li>Includes domain purchase and setup, plus 1 year of management</li>
+                    
+                    <li>Google My Business Setup: Free with all 5-page packages ($50 for others)</li>
+                </ul>
+                 <!--<a href="#">Learn More</a>-->
+            </div>
+        </div>
+    </div>
+
+   </div>
+
+<!-----------------------portfolio------------------------------->
+
+<div id = "portfolio">
+    <div class = "container"> 
+        <h1 class = "sub-title"> My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="QuainooUniversity.jpg">
+                <div class = "layer">
+                    <h3>Quainoo University</h3>
+                    <p>A website for a fictional university I built for my family</p>
+                    <a href="https://quainoouniversity.netlify.app/" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                    <img src="EdGlobal Landing Page.jpg">
+                    <div class = "layer">
+                        <h3>EdGlobal Landing Page Site</h3>
+                        <p>A fictional travel site landing page I built for my love of travel</p>
+                        <a href="https://edglobal.netlify.app/" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>   
+            </div>
+
+            <div class="work">
+                <img src="edulearn.jpg">
+                <div class = "layer">
+                    <h3>Online education platform</h3>
+                    <p>A fictional platform that connects you to knowledge from reputable sources</p>
+                    <a href="https://edulearn3.netlify.app/" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></i></a>
+
+                </div>
+
+        </div>
+        <div class = "btn">And Many More</div>
+    </div>
+</div>
+
+<!------------Contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ed.adom3@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+1(540)577-2310</p>
+                <!--<div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i> </a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i> </a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class = "btn btn2">Download CV</a> -->
+            </div> 
+
+            <div class="contact-right">
+                <form id = "contact-form" action="">
+                    <input type="text" name = "Name" placeholder = "Your Name" required>
+                    <input type="email" name = "email" placeholder = "Your Email" required>
+                    <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+                    <button type = "submit" class = "btn btn2">Submit</button>
+                </form>
+
+                <!-- Placeholder for the confirmation message -->
+                <p id="confirmation-message" style="display: none; color: green; font-weight: bold;"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Ed Quainoo</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+     
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent actual form submission
+
+    // Show the confirmation message
+    const confirmationMessage = document.getElementById("confirmation-message");
+    confirmationMessage.textContent = "Thank you for your message! I will get back to you shortly.";
+    confirmationMessage.style.display = "block";
+
+    // Optionally clear the form fields after submission
+    event.target.reset();
+    });
+
+</script>
+
+</body>
+</html>
