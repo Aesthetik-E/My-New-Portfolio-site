@@ -17,7 +17,7 @@ body{
 }
 
 #header{
-    width: 100%;
+    width: 80%;
     height: 100vh;
     /*background-image: url(myProfessionalPic.jpg);
     background-size: 37%;
@@ -29,6 +29,11 @@ body{
 .container{
     padding: 10px 10%;
 
+}
+
+.pseudoLogo{
+    margin-top: 12px;
+    font-size: 25px;
 }
 
 #nameSpan{
@@ -49,6 +54,12 @@ body{
    width: 140px;
 
 }*/
+
+nav ul{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
 
 nav ul li{
     display: inline-block;
@@ -464,14 +475,27 @@ form .btn2{
    
     body{
         overflow-y: auto;
+        margin: 0;
     }
 
     nav{
         display: none;
     }
 
+    .pseudoLogo{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
     .mini-logo .hidden-name-span{
         color: var(--primary-color);
+    }
+
+    #hidden-menu-logo{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        font-size: 50px;
     }
 
     .hidden-menu{
@@ -528,7 +552,7 @@ form .btn2{
     .background-pic img{
         width: 80%;
         height: 100%;
-        margin: 30px auto 20px;
+        margin: 30px auto 10px;
     }
 
     #about{
@@ -537,15 +561,16 @@ form .btn2{
         justify-content: column;
     }
 
-     .about-col-1{
+    .about-col-1{
         min-width: 100%;
         min-height: 100%;
-        margin: 20px auto;
+        margin: 0 auto 10px;
     }
 
     .about-col-1 img{
         width: 90%;
         height: 100%;
+        
     }
 }
 
