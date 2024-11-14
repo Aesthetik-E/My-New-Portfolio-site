@@ -556,9 +556,12 @@ form .btn2{
     }
 
     #about{
-        margin-top: 13px;
         display: flex;
         justify-content: column;
+    }
+
+    #about .container{
+        margin-top: 12px;
     }
 
     .about-col-1{
