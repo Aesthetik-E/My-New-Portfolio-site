@@ -483,8 +483,11 @@ form .btn2{
     }
 
     .pseudoLogo{
-        margin-top: 20px;
+        position: absolute;
+        top: 35px;
+        left: 20px;
         font-size: 25px;
+
     }
 
     .mini-logo .hidden-name-span{
@@ -495,7 +498,7 @@ form .btn2{
         position: absolute;
         right: 15px;
         top: 10px;
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .hidden-menu{
